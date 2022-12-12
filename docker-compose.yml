@@ -6,8 +6,8 @@ services:
     container_name: mysqldb_container
     restart: unless-stopped
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE= examv2thouraya
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_DATABASE=examv2thouraya
     ports:
       - 3306:3306
     volumes:
